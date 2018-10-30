@@ -16,7 +16,7 @@ const client = new OBA({
 
 // Example search to the word 'rijk' sorted by title:
 client.get('search', {
-  q: 'rijk',
+  q: 'Music',
   sort: 'title'
 })
   	// .then(res => console.log(res)) // JSON results
