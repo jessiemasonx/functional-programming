@@ -1,5 +1,12 @@
 const OBA = require('oba-api');
 
+// const dotenv = require('dotenv').config()
+
+if(process.env.NODE.ENV !== "production") {
+	require('dotenv').load()
+}
+
+
 // Setup authentication to api server
 const client = new OBA({
   // ProQuest API Keys
