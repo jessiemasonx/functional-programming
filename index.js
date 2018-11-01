@@ -17,27 +17,33 @@ const obaApi = new api({
 // possible endpoints: search (needs 'q' parameter) | details (needs a 'frabl' parameter) | availability (needs a 'frabl' parameter) | holdings/root | index/x (where x = facet type (like 'book' ))
 // possible parameters: q, librarian, refine, sort etc. check oba api documentation for all
 // possible filterKey: any higher order key in response object, like title returns only title objects instead of full data object
+
 obaApi.get('search', {
-  q: 'jessie',
+  q: 'language:dut',
   librarian: true,
   refine: true,
-  facet: 'type(book)'
-}, 'title').then(response => {
-
+  // count: 1,
+  facet: ['type(book)', 'genre(romantisch-verhaal)', 'pubYear(2000)']
+}, 'title')
+.then(response => {
   // response ends up here
   console.log(response)
-  // let keys = Object.keys(data[0])
-  // console.log(facet)
-
   // Make server with the response on the port
   app.get('/', (req, res) => res.json(response))
   app.listen(port, () => console.log(chalk.green(`Listening on port ${port}`)))
 })
 
-//Get an idea of what's in the data
-function getKeys(data){
-	console.table(data)
-	let keys = Object.keys(data[0])
-	console.log("Keys: ", keys)
-	return keys
-}
+obaApi.get('search', {
+  q: 'language:dut',
+  librarian: true,
+  refine: true,
+  // count: 1,
+  facet: ['type(book)', 'genre(romantisch-verhaal)', 'pubYear(2000)']
+}, 'author')
+.then(response => {
+  // response ends up here
+  console.log(response)
+  // Make server with the response on the port
+  app.get('/', (req, res) => res.json(response))
+  // app.listen(port, () => console.log(chalk.green(`Listening on port ${port}`)))
+})
