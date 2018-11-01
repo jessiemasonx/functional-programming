@@ -41,6 +41,8 @@ eindelijk gefixt dat k geen errors meer heb
 - geslacht schrijver
 - jaar uitgave
 
+
+
 #### Deelvragen for number 4:
 - Hoe veel mannen hebben in 2017 een roman uitgebracht?
 - Hoe veel vrouwen hebben in 2017 een roman uitgebracht?
@@ -49,9 +51,39 @@ eindelijk gefixt dat k geen errors meer heb
 - Hoe veel mannelijke schrijven schrijven romans?
 - Hoe veel vrouwelijke schrijven schrijven romans?
 
+#### Hypothesis
+Jaren geleden was het verschil tussen de verhouding mannen en vrouwen die romans schreven kleiner dan dat het nu is.
+Years ago the difference between the ratio of men and women who write romans was smaller than it is now.
 
 ### Day 3
 
 - met linda gehad over de onderzoeksvragen
 - deelvragen bedacht
 - code van dennis gekregen en gebruikt
+- heel veel stof
+
+### Day 4
+
+- stappenplan gemaakt
+- hypothese gemaakt
+- veel kwartjes vielen
+- alle data op kunnen halen
+
+How am I going to do this:
+1. Filter on only books
+2. Filter on romans
+3. Filter per year
+4. Make sure you can see the names of the author
+5. find out the gender of the author
+6. compare everything
+
+
+- we hadden geen zitplek
+- dus met zn alle in zaal
+- #### get only books
+  door `facet: 'type(book)'`
+- #### get only romans
+When I search for 'romans' in titles I get books, but it gives me books with different genres. Now I added it as Facet by putting `facet: 'genre(romantisch-verhaal)'`
+- ### Filter per year
+`'pubYear(2000)'`
+-
