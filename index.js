@@ -24,7 +24,7 @@ obaApi.get('search', {
   refine: true,
   // count: 1,
   facet: ['type(book)', 'genre(romantisch-verhaal)', 'pubYear(2000)']
-}, 'title')
+})
 .then(response => {
   // response ends up here
   console.log(response)
@@ -33,17 +33,19 @@ obaApi.get('search', {
   app.listen(port, () => console.log(chalk.green(`Listening on port ${port}`)))
 })
 
-obaApi.get('search', {
-  q: 'language:dut',
-  librarian: true,
-  refine: true,
-  // count: 1,
-  facet: ['type(book)', 'genre(romantisch-verhaal)', 'pubYear(2000)']
-}, 'author')
-.then(response => {
-  // response ends up here
-  console.log(response)
-  // Make server with the response on the port
-  app.get('/', (req, res) => res.json(response))
-  // app.listen(port, () => console.log(chalk.green(`Listening on port ${port}`)))
-})
+
+//
+// obaApi.get('search', {
+//   q: 'language:dut',
+//   librarian: true,
+//   refine: true,
+//   // count: 1,
+//   facet: ['type(book)', 'genre(romantisch-verhaal)', 'pubYear(2000)']
+// }, 'author')
+// .then(response => {
+//   // response ends up here
+//   console.log(response)
+//   // Make server with the response on the port
+//   // app.get('/', (req, res) => res.json(response))
+//   // app.listen(port, () => console.log(chalk.green(`Listening on port ${port}`)))
+// })
