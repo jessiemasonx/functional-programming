@@ -22,7 +22,23 @@
 5. By how much has the amount of e-books changed over the last years.
 6. __Has the ratio between men and women who write novels changed over the years?__
 
-I couldn't decide for a long time whether to go with 4 or 6.  
+
+
+#### Decision
+I decided to go with research question number 6:
+__Has the ratio between men and women who write novels changed over the years?__
+
+
+### Day 3
+
+- Talked about my research questions with Linda, to improve then
+- Though of my sub-questions
+- Thought of my hypothesis
+- Got Dennis' code and used it
+- Titus and Laurens gave bootcamps with a lot of info
+- Standup
+
+I couldn't decide for a long time whether to go with research question number 4 or 6.  
 So I thought of the sub-questions and variables I would need for both, and decided which one to go with after.
 
 #### Variables for number 4:
@@ -40,28 +56,16 @@ So I thought of the sub-questions and variables I would need for both, and decid
 - Year of publication
 
 #### Sub-questions for number 6:
-- Hoe veel mannen hebben in 2017 een novel uitgebracht?
-- How many men publish
-- Hoe veel vrouwen hebben in 2017 een novel uitgebracht?
-- In welk jaar hebben de meeste vrouwen een novel uitgebracht?
-- In welk jaar hebben de meeste mannen een novel uitgebracht?
-- Hoe veel mannelijke schrijven schrijven novels?
-- Hoe veel vrouwelijke schrijven schrijven novels?
-
-#### Decision
-I decided to go with research question number 6:
-__Has the ratio between men and women who write novels changed over the years?__
-
+- How many men published a novel in 2017?
+- How many woman published a novel in 2017?
+- In which year did most woman publish a novel?
+- In which year did most men publish a novel?
+- How many male authors write novels?
+- How many female authors write novels?
+- In what year was the ratio the biggest?
 
 #### Hypothesis
-Years ago the difference between the ratio of men and women who write novels was smaller than it is now.
-
-### Day 3
-
-- met linda gehad over de onderzoeksvragen
-- deelvragen bedacht
-- code van dennis gekregen en gebruikt
-- heel veel stof
+Years ago the difference in the ratio of men and women who write novels was smaller than it is now.
 
 ### Day 4
 
