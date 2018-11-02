@@ -22,7 +22,7 @@ xcode geinstalleeeeerd
 3. Has the amount of pages in books about movies changed over the years?
 4. __By how much has the amount of released school books changed over the past years?__
 5. By how much has the amount of e-books changed over the last years.
-6. __Is de verhouding tussen mannen en vrouwen die romans schrijven veranderd in de afgelopen jaren?__
+6. __Has the ratio between men and women who write romans changed over the years?__
 
 I couldn't decide for a long time whether to go with 4 or 6.  
 So I thought of the sub-questions and variables I would need for both, and decided which one to go with after.
@@ -43,8 +43,7 @@ So I thought of the sub-questions and variables I would need for both, and decid
 - Year of publication
 
 
-
-#### Deelvragen for number 4:
+#### Sub-questions for number 6:
 - Hoe veel mannen hebben in 2017 een roman uitgebracht?
 - Hoe veel vrouwen hebben in 2017 een roman uitgebracht?
 - In welk jaar hebben de meeste vrouwen een roman uitgebracht?
@@ -52,8 +51,12 @@ So I thought of the sub-questions and variables I would need for both, and decid
 - Hoe veel mannelijke schrijven schrijven romans?
 - Hoe veel vrouwelijke schrijven schrijven romans?
 
+#### Decision
+I decided to go with research question number 6:
+__Has the ratio between men and women who write romans changed over the years?__
+
+
 #### Hypothesis
-Jaren geleden was het verschil tussen de verhouding mannen en vrouwen die romans schreven kleiner dan dat het nu is.
 Years ago the difference between the ratio of men and women who write romans was smaller than it is now.
 
 ### Day 3
