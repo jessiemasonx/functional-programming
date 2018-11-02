@@ -10,14 +10,12 @@ lukt mij niet want errors
 moet eerst nog Xcode installeren maar duurt jaren
 
 ### Day 2
-At school, geen OBA  
-onderzoeks vragen halen uit de dataS
+- Installed XCode because installation wasn't completed the day before
+- We sat at school
+- Got research questions from the data
 xcode geinstalleeeeerd
 
-
-#### 5 dingen uit data halen die je zou kunnen visuaiseren
-
-eindelijk gefixt dat k geen errors meer heb
+#### 5 things I could visualise based on the data
 
 1. Has the amount of released books about Disney increased or decreased over the last 10 years.
 2. Has the amount of pages in a children’s book increased or decreased over the years?
@@ -26,6 +24,7 @@ eindelijk gefixt dat k geen errors meer heb
 5. By how much has the amount of e-books changed over the last years.
 6. __Is de verhouding tussen mannen en vrouwen die romans schrijven veranderd in de afgelopen jaren?__
 
+I could'nt decide for a long time whether to go with 4 or 6. 
 
 #### Variables for number 4:
 - boek soort (schoolboek of niet)
