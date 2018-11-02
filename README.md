@@ -24,21 +24,23 @@ xcode geinstalleeeeerd
 5. By how much has the amount of e-books changed over the last years.
 6. __Is de verhouding tussen mannen en vrouwen die romans schrijven veranderd in de afgelopen jaren?__
 
-I could'nt decide for a long time whether to go with 4 or 6. 
+I couldn't decide for a long time whether to go with 4 or 6.  
+So I thought of the sub-questions and variables I would need for both, and decided which one to go with after.
 
 #### Variables for number 4:
 - boek soort (schoolboek of niet)
-- jaar van uitgave
+- Book type (whether it's a school book or not)
+- Year of publication
 
-#### Deelvragen for number 4:
-- Hoe veel schoolboeken zijn er in 2017 uitgegeven?
-- In welk jaar zijn de meeste schoolboeken uitgebracht?
-- In welk jaar zijn de minste schoolboeken uitgebracht?
+#### Sub-questions for number 4:
+- How many books were published in 2017?
+- In which year where the most books published?
+- In which year where the least books published?
 
-#### What variables would I need for number 6:
-- boek genre (roman)
-- geslacht schrijver
-- jaar uitgave
+#### Variables for number 6:
+- Book genre (roman)
+- Gender of the author
+- Year of publication
 
 
 
