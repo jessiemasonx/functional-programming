@@ -24,16 +24,10 @@
 
 
 
-#### Decision
-I decided to go with research question number 6:
-__Has the ratio between men and women who write novels changed over the years?__
-
-
 ### Day 3
 
 - Talked about my research questions with Linda, to improve then
 - Though of my sub-questions
-- Thought of my hypothesis
 - Got Dennis' code and used it
 - Titus and Laurens gave bootcamps with a lot of info
 - Standup
@@ -64,15 +58,19 @@ So I thought of the sub-questions and variables I would need for both, and decid
 - How many female authors write novels?
 - In what year was the ratio the biggest?
 
-#### Hypothesis
-Years ago the difference in the ratio of men and women who write novels was smaller than it is now.
+
+#### Decision
+I decided to go with research question number 6:
+__Has the ratio between men and women who write novels changed over the years?__
 
 ### Day 4
 
-- stappenplan gemaakt
-- hypothese gemaakt
-- veel kwartjes vielen
-- alle data op kunnen halen
+- Thought of my hypothesis
+- All of a sudden understanded a lot of things
+- Was finally able to recieve all the data I needed
+
+#### Hypothesis
+Years ago the difference in the ratio of men and women who write novels was smaller than it is now.
 
 How am I going to do this:
 1. Filter on only books
@@ -83,12 +81,12 @@ How am I going to do this:
 6. compare everything
 
 
-- we hadden geen zitplek
-- dus met zn alle in zaal
 - #### get only books
   door `facet: 'type(book)'`
 - #### get only novels
 When I search for 'novels' in titles I get books, but it gives me books with different genres. Now I added it as Facet by putting `facet: 'genre(noveltisch-verhaal)'`
 - ### Filter per year
 `'pubYear(2000)'`
--
+
+
+### Day 5
