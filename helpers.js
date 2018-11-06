@@ -37,6 +37,13 @@ const getPublicationYearFromResult = (result) => {
         || undefined
 }
 
+// const getGenreFromResult = (result) => {
+//     return result.genres
+//         && result.genres.genre
+//         && result.genres.genre.$t
+//         || undefined
+// }
+
 const getLanguageFromResult = (result) => {
     return result.languages
         && result.languages.language
@@ -53,9 +60,10 @@ const getTransformedResultFromResults = (results) => {
             title: getTitleFromResult(result),
             publicationYear: getPublicationYearFromResult(result),
             language: getLanguageFromResult(result)
+			// genre: getGenreFromResult(result)
         }))
         : []
 }
 
 
-module.exports = {getTransformedResultFromResults}
+module.exports = {getTransformedResultFromResults, getPublicationYearFromResult}

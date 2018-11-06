@@ -22,6 +22,7 @@ function log (string, options) {
 	if (options.log) {
 		// string is in async get
 		console.log(string);
+
 	}
 }
 
@@ -51,12 +52,14 @@ module.exports = class OBAWrapper {
 			}
 			// Make sure the API can actually provide the number of items the user requested
 			const maxResults = Number(response.aquabrowser.meta.count);
+
 			// options.count geef je mee in index.js, is hoe veel resultaten je wilt zien
 			// maxResults is hoe veel resultaten er zijn
 			// hij checkt of wat je wilt zien groter is dan hoe veel er is, want dan is er een warning
 			if (options.count > maxResults) {
 				log(`${chalk.bold("Warning:")} Requested ${chalk.hex("#AE81FF")(options.count)} but only ${chalk.hex("#AE81FF")(maxResults)} available.`, options);
 				options.count = maxResults;
+
 			}
 
 			// Check if user provided filter
@@ -70,7 +73,7 @@ module.exports = class OBAWrapper {
 			// Push individual values to skip flattening later
 			results.push(...__results);
 		}
-
+		console.log("All the results: ", results.length)
 		// Cull any extra results
 		// options.count is the results you ask for
 		// results.length is total results

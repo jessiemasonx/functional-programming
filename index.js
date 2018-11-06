@@ -22,7 +22,13 @@ const search = async (q, facet, page, count) => {
 		refine: true,
 		facet,
 		page,
-		count: 20
+		count: 60,
+		filter: (result) => {
+			 const publicationYear = helpers.getPublicationYearFromResult(result)
+			 const currentYear = new Date().getFullYear()
+			 // return publicationYear >= currentYear - 5
+			 return publicationYear === currentYear || publicationYear === currentYear - 5 || publicationYear === currentYear - 10 || publicationYear === currentYear - 15
+		 }
   	})
 }
 
@@ -30,13 +36,13 @@ const search = async (q, facet, page, count) => {
 (async () => {
 	try {
 		// Chelsea & Maikel
-		const results = await search("language:dut", ["type(book)", "genre(romantisch-verhaal)", "pubYear(2018)"], 1)
+		const results = await search("language:dut", ["type(book)", "genre(romantisch-verhaal)"], 1)
 
 		if (results) {
 			// const results = helpers.getResultsFromSearchData(searchData)
 			const transformedResults = helpers.getTransformedResultFromResults(results)
-			console.log(transformedResults)
 
+			console.log(transformedResults)
 			const dataWrapper = {
 				"results": transformedResults
 			}
@@ -47,5 +53,3 @@ const search = async (q, facet, page, count) => {
 		throw new Error(error)
 	}
 })()
-	   //
-       // refine: true,
