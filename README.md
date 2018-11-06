@@ -20,7 +20,7 @@
 3. Has the amount of pages in books about movies changed over the years?
 4. __By how much has the amount of released school books changed over the past years?__
 5. By how much has the amount of e-books changed over the last years.
-6. __Has the ratio between men and women who write novels changed over the years?__
+6. __Has in The Netherlands the ratio between men and women who write novels changed over the years?__
 
 
 
@@ -61,7 +61,7 @@ So I thought of the sub-questions and variables I would need for both, and decid
 
 #### Decision
 I decided to go with research question number 6:
-__Has the ratio between men and women who write novels changed over the years?__
+__Has in The Netherlands the ratio between men and women who write novels changed over the years?__
 
 ### Day 4
 
@@ -82,11 +82,53 @@ How am I going to do this:
 
 
 - #### get only books
-  door `facet: 'type(book)'`
+   `facet: 'type(book)'`
 - #### get only novels
-When I search for 'novels' in titles I get books, but it gives me books with different genres. Now I added it as Facet by putting `facet: 'genre(noveltisch-verhaal)'`
-- ### Filter per year
+When I search for 'novels' in titles I get books, but it gives me books with different genres. Now I added it as Facet by putting `facet: 'genre(romantisch-verhaal)'`
+- #### Filter per year
 `'pubYear(2000)'`
 
 
+I decided that if compare *every* year, there would be too many results to compare. This is why I decided to look at every 5 years. I checked had enough results for me to use. And this is what I found:
+
+(I left the years out where there were 0 results)
+
+| year | amount of results |
+|------|-------------------|
+| 1980 | 1 result          |
+| 1984 | 3 results         |
+| 1987 | 1 result          |
+| 1989 | 1 result     	   |
+| 1991 | 1 result      	   |
+| 1992 | 5 results         |
+| 1994 | 2 results         |
+| 1995 | 15 results        |
+| 2000 | 66 results        |
+| 2005 | 106 results       |
+| 2010 | 388 results       |
+| 2015 | 271 results       |
+| 2018 | 381 results       |
+
+1980 is the earliest year with results I found.
+
+
 ### Day 5
+gastspreker bert spaan over observable en d3
+beginnnen met kijken naar observable
+specifieke data in terminal door code van chelsea en Maikel
+
+### Day 6
+
+- Rejo vertelde over bits of freedom over privacy enzo
+- Titus vertelde over d3
+- gefixt met chelsea dat ik alle resultaten kan zien
+- gekeken naar d3
+-
+
+### Day 7
+- Filter on specific Years
+- help linda met meerdere resultaten zien
+- aantal showen console.log("All the results: ", results.length)
+- d3 verder proberen `npm install d3`
+- `const d3 = require("d3");`
+-
