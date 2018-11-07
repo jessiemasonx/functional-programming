@@ -7,6 +7,8 @@
 //         || []
 // }
 
+const fs = require('fs')
+
 const getAuthorFromResult = (result) => {
     return result.authors
         && result.authors["main-author"]
@@ -37,12 +39,14 @@ const getPublicationYearFromResult = (result) => {
         || undefined
 }
 
-// const getGenreFromResult = (result) => {
-//     return result.genres
-//         && result.genres.genre
-//         && result.genres.genre.$t
-//         || undefined
-// }
+const getGenreFromResult = (result) => {
+    return result.genres
+        && result.genres.genre
+        && result.genres.genre.$t
+        || undefined
+}
+
+// als getGenreFromResult undefined is, moet hij er uit
 
 const getLanguageFromResult = (result) => {
     return result.languages
@@ -59,11 +63,28 @@ const getTransformedResultFromResults = (results) => {
             author: getAuthorFromResult(result),
             title: getTitleFromResult(result),
             publicationYear: getPublicationYearFromResult(result),
-            language: getLanguageFromResult(result)
-			// genre: getGenreFromResult(result)
+            language: getLanguageFromResult(result),
+			genre: getGenreFromResult(result)
         }))
         : []
 }
 
 
-module.exports = {getTransformedResultFromResults, getPublicationYearFromResult}
+const CACHE = {};
+function getGenderFromName (firstname) {
+	if (Object.keys(CACHE).length <= 0) {
+		Object.assign(CACHE, JSON.parse(fs.readFileSync("./names.json", "utf8")));
+	}
+	const man = CACHE.mannen.find(name => name === firstname);
+	const vrouw = CACHE.vrouwen.find(name => name === firstname);
+	if (!(man || vrouw) || man && vrouw) return null; //If no result or ambiguous return null.
+	return (man && "Man") || (vrouw && "Vrouw");
+}
+
+module.exports = {
+    getTransformedResultFromResults,
+    getPublicationYearFromResult,
+    getAuthorFromResult,
+	getGenreFromResult,
+	getGenderFromName
+}
