@@ -84,6 +84,7 @@ How am I going to do this:
 
 I was able to complete step 1, 2, 3 and 4 on this day.
 
+##### Table
 I decided that if compare _every_ year, there would be too many results to compare. This is why I decided to look at every 5 years. I checked which years had enough results for me to use. And this is what I found:
 
 (I left the years out where there were 0 results)
