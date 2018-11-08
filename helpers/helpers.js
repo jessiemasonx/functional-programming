@@ -1,10 +1,9 @@
 // most of this file is with help from Maikel and Chelsea
-const fs = require('fs')
+const fs = require("fs")
 
 
 // it goes 1 element deeper everytime but first checks if it's there
 // if not, it returns undefined
-
 
 const getAuthorFromResult = (result) => {
     return result.authors
@@ -52,7 +51,7 @@ const getLanguageFromResult = (result) => {
 
 const getFirstNameAndGender = (author) => {
 	// split the name at the comma so first and last name are seperate
-	const authorFirstNameLastName = author.split(', ')
+	const authorFirstNameLastName = author.split(", ")
 	// first name is second part and last name is the first part
 	// so to get the first name you get the second [1] part
 	let firstName = authorFirstNameLastName[1]
@@ -79,7 +78,7 @@ const removeDots = (hasDots, firstName, firstDot) => {
 	// remove from letter before dot until last letter so only first name is left
 	const tokensToRemove = firstName && removeStartIndex !== undefined && firstName.slice(removeStartIndex, endIndex)
 	// remove the space
-	const transformedFirstName = tokensToRemove && firstName.replace(tokensToRemove, '').trim()
+	const transformedFirstName = tokensToRemove && firstName.replace(tokensToRemove, "").trim()
 }
 
 // credits to Maikel and Chelsea
@@ -99,15 +98,15 @@ const getTransformedResultFromResults = (results) => {
 }
 
 // credits to wouter
-const CACHE = {};
+const CACHE = {}
 function getGenderFromName (firstname) {
 	if (Object.keys(CACHE).length <= 0) {
-		Object.assign(CACHE, JSON.parse(fs.readFileSync("./names.json", "utf8")));
+		Object.assign(CACHE, JSON.parse(fs.readFileSync("./json/names.json", "utf8")))
 	}
-	const man = CACHE.mannen.find(name => name === firstname);
-	const vrouw = CACHE.vrouwen.find(name => name === firstname);
-	if (!(man || vrouw) || man && vrouw) return null; //If no result or ambiguous return null.
-	return (man && "Man") || (vrouw && "Vrouw");
+	const man = CACHE.mannen.find(name => name === firstname)
+	const vrouw = CACHE.vrouwen.find(name => name === firstname)
+	if (!(man || vrouw) || man && vrouw) return null //If no result or ambiguous return null.
+	return (man && "Man") || (vrouw && "Vrouw")
 }
 
 // export all the function
