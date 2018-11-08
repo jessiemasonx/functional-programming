@@ -205,7 +205,7 @@ I would also like to improve my D3 skills a little more than I already have, jus
 ## Credits and help
 
 ### The people that helped me the most
-<img src="https://github.com/jessiemasonx/images/blob/master/linda.png" width="150"> | <img src="https://github.com/jessiemasonx/images/blob/master/chelsea.png" width="150">| <img src="https://github.com/jessiemasonx/images/blob/master/maikel.png" width="150">| <img src="https://github.com/jessiemasonx/images/blob/master/chelsea.png" width="150">|<img src="https://github.com/jessiemasonx/images/blob/master/dennis.png" width="150">
+<img src="https://github.com/jessiemasonx/images/blob/master/linda.png" width="150"> | <img src="https://github.com/jessiemasonx/images/blob/master/chelsea.png" width="150">| <img src="https://github.com/jessiemasonx/images/blob/master/maikel.png" width="150">| <img src="https://github.com/jessiemasonx/images/blob/master/wouter.png" width="150">|<img src="https://github.com/jessiemasonx/images/blob/master/dennis.png" width="150">
 ---|---|---|---|---
 [Linda de Haan](https://github.com/LindadeHaan) | [Chelsea Doeleman](https://github.com/chelseadoeleman) | [Maikel van Veen](https://github.com/Maikxx) | [Wouter Lem](https://github.com/maanlamp) | [Dennis Weegereef](https://github.com/Denniswegereef)
 
