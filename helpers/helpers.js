@@ -98,7 +98,7 @@ const getTransformedResultFromResults = (results) => {
         : []
 }
 
-
+// credits to wouter
 const CACHE = {};
 function getGenderFromName (firstname) {
 	if (Object.keys(CACHE).length <= 0) {
@@ -110,6 +110,7 @@ function getGenderFromName (firstname) {
 	return (man && "Man") || (vrouw && "Vrouw");
 }
 
+// export all the function
 module.exports = {
     getTransformedResultFromResults,
     getPublicationYearFromResult,

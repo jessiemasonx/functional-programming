@@ -13,7 +13,7 @@ const app = express()
 const port = 3000
 
 // functions
-const helpers = require("./helpers.js")
+const helpers = require("./helpers/helpers.js")
 
 const obaApi = new obawrapper({
     public: process.env.PUBLIC,
@@ -35,13 +35,14 @@ const search = async (q, facet, page, count) => {
 			const currentYear = new Date().getFullYear()
             // return publicationYear === 2018
 			return publicationYear === currentYear -3
-
-			|| publicationYear === 2017
-			|| publicationYear === 2016
-			|| publicationYear === 2015
-			// return where is has a genre that is romantisch verhaal
 			&& helpers.getGenreFromResult(result)
-
+			|| publicationYear === 2017
+			&& helpers.getGenreFromResult(result)
+			|| publicationYear === 2016
+			&& helpers.getGenreFromResult(result)
+			|| publicationYear === 2015
+			&& helpers.getGenreFromResult(result)
+			// return where is has a genre that is romantisch verhaal
         }
     })
 }
