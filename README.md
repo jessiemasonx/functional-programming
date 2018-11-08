@@ -160,7 +160,7 @@ I used this pretty [Line Graph](https://bl.ocks.org/alandunning/cfb7dcd7951826b9
 
 This is the result. As you can see, based on the data I found, the percentage of men has actually increased and not decreased (except for in 2018). This is not what I expected.
 
-## Experience
+## Experience and opinion
 
 Overall, I thought this project up until now was very informative. There are so many things that i've done that I had never done before. I had never worked with an API and getting my data like this. Focussing on the functional programming was also challenging for me because I know my Javascript skills aren't as high as others'. I did need a lot help with my code because of that.
 
@@ -187,12 +187,12 @@ What I would also like is to get the results of all my years at the same time, i
 Furthermore, I want to load my data dynamically. And use that data to calculate the percentage and use that in my visualisation.
 
 I would also like to improve my D3 skills a little more than I already have, just because right now I don't feel like I've had enough time to do so.
-<img src="https://github.com/jessiemasonx/images/blob/master/linda.png"></img>
+
 
 ## Credits and help
 
 ### The people that helped me the most
-<img src="https://github.com/jessiemasonx/images/blob/master/linda.png" width="100"> | <img src="https://github.com/jessiemasonx/images/blob/master/chelsea.png" width="100">| <img src="https://github.com/jessiemasonx/images/blob/master/maikel.png" width="100">| <img src="https://github.com/jessiemasonx/images/blob/master/chelsea.png" width="100">|<img src="https://github.com/jessiemasonx/images/blob/master/dennis.png" width="100">
+<img src="https://github.com/jessiemasonx/images/blob/master/linda.png" width="150"> | <img src="https://github.com/jessiemasonx/images/blob/master/chelsea.png" width="150">| <img src="https://github.com/jessiemasonx/images/blob/master/maikel.png" width="150">| <img src="https://github.com/jessiemasonx/images/blob/master/chelsea.png" width="150">|<img src="https://github.com/jessiemasonx/images/blob/master/dennis.png" width="150">
 ---|---|---|---|---
 [Linda de Haan](https://github.com/LindadeHaan) | [Chelsea Doeleman](https://github.com/GiuliaM) | [Maikel van Veen](https://github.com/Maikxx) | [Wouter Lem](https://github.com/Mimaaa) | [Dennis Weegereef](https://github.com/pierman1)
 
