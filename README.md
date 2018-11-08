@@ -4,7 +4,7 @@ https://jessiemasonx.github.io/functional-programming/index.html
 
 - [Research](#research)
 - [Visualisation](#visualisation)
-- [Experience and opinion](#experience)
+- [Experience and opinion](https://github.com/jessiemasonx/functional-programming#experience-and-opinion)
 - [What's next](https://github.com/jessiemasonx/functional-programming#whats-next)
 - [Credits and help](https://github.com/jessiemasonx/functional-programming#credits-and-help)
 
@@ -12,7 +12,7 @@ __To see what i've been doing every day of this project, you can check out my [j
 
 ## Research
 
-There so many things I could look into in the OBA API, that it was very hard for me to decide what to go with.
+There were so many things I could look into in the OBA API, that it was very hard for me to decide what to go with.
 
 In the beginning I just looked at all the data for a while and came up with a couple of things I could look into. This is what I came up with:
 
@@ -71,6 +71,11 @@ __Over the last years the difference between the percentage of men and women who
  Het verschil in het percentage mannen en vrouwen die romantische verhalen schrijven in Nederland is in de laatste jaren meer geworden omdat mannen minder romans schrijven dan ze eerst deden.
 </details>
 
+<img src="https://github.com/jessiemasonx/images/blob/master/IMG_9899.jpg" width="500">
+<img src="https://github.com/jessiemasonx/images/blob/master/IMG_9900.jpg" width="500">
+<img src="https://github.com/jessiemasonx/images/blob/master/IMG_9901.jpg" width="500">
+
+
 <br>
 The reason I thought this was the case was because I thought men have become less romantic over the past years.
 
@@ -89,17 +94,17 @@ The results in my terminal looked something like this:
 ```json
 {
 	"author": "Moyes, Jojo",
-   "title": "Portret van een vrouw / Jojo Moyes",
-   "publicationYear": 2015,
-   "language": "dut",
-   "genre": "Romantisch verhaal"
+	"title": "Portret van een vrouw / Jojo Moyes",
+	"publicationYear": 2015,
+	"language": "dut",
+	"genre": "Romantisch verhaal"
 },
 {
 	"author": "Macomber, Debbie",
-   "title": "Een nieuw begin in Rose Harbor / Debbie Macomber",
-   "publicationYear": 2015,
-   "language": "dut",
-   "genre": "Romantisch verhaal"
+	"title": "Een nieuw begin in Rose Harbor / Debbie Macomber",
+	"publicationYear": 2015,
+	"language": "dut",
+	"genre": "Romantisch verhaal"
 }
 ```
 
@@ -120,7 +125,7 @@ The thing that I haven't been able to do is put the gender of the author in thes
 }
 ```
 
-My plan was to dynamically load my data into my data visualisation. But eventually I decided I wasn't going to do this. I was working on getting the results for long and I really wanted to work on D3. So I decided that I was just going to collect the data and put it in a json file. And then I was going to get that json into the data visualisation.
+My plan was to dynamically load my data into my data visualisation. But eventually I decided I wasn't going to do this. I was working on getting the results for so long and I really wanted to work on D3. So I decided that I was just going to collect the data and put it in a json file. And then I was going to get that json into the data visualisation.
 
 What I did was look at one year at a time, and put that into the json file. I did this for every year that I was going to look at.
 
@@ -164,6 +169,8 @@ I used this pretty [Line Graph](https://bl.ocks.org/alandunning/cfb7dcd7951826b9
 
 This is the result. As you can see, based on the data I found, the percentage of men has actually increased and not decreased (except for in 2018). This is not what I expected.
 
+<img src="https://github.com/jessiemasonx/images/blob/master/Schermafbeelding%202018-11-08%20om%2022.41.14.png">
+
 ## Experience and opinion
 
 Overall, I thought this project up until now was very informative. There are so many things that i've done that I had never done before. I had never worked with an API and getting my data like this. Focussing on the functional programming was also challenging for me because I know my Javascript skills aren't as high as others'. I did need a lot help with my code because of that.
@@ -198,7 +205,7 @@ I would also like to improve my D3 skills a little more than I already have, jus
 ### The people that helped me the most
 <img src="https://github.com/jessiemasonx/images/blob/master/linda.png" width="150"> | <img src="https://github.com/jessiemasonx/images/blob/master/chelsea.png" width="150">| <img src="https://github.com/jessiemasonx/images/blob/master/maikel.png" width="150">| <img src="https://github.com/jessiemasonx/images/blob/master/chelsea.png" width="150">|<img src="https://github.com/jessiemasonx/images/blob/master/dennis.png" width="150">
 ---|---|---|---|---
-[Linda de Haan](https://github.com/LindadeHaan) | [Chelsea Doeleman](https://github.com/GiuliaM) | [Maikel van Veen](https://github.com/Maikxx) | [Wouter Lem](https://github.com/Mimaaa) | [Dennis Weegereef](https://github.com/pierman1)
+[Linda de Haan](https://github.com/LindadeHaan) | [Chelsea Doeleman](https://github.com/chelseadoeleman) | [Maikel van Veen](https://github.com/Maikxx) | [Wouter Lem](https://github.com/maanlamp) | [Dennis Weegereef](https://github.com/Denniswegereef)
 
 Other helpful resources
 - [Daniels Documentation](https://github.com/DanielvandeVelde/functional-programming/blob/master/README.md)
