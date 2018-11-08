@@ -71,6 +71,8 @@ __Over the last years the difference between the percentage of men and women who
  Het verschil in het percentage mannen en vrouwen die romantische verhalen schrijven in Nederland is in de laatste jaren meer geworden omdat mannen minder romans schrijven dan ze eerst deden.
 </details>
 
+<br>
+
 <img src="https://github.com/jessiemasonx/images/blob/master/IMG_9899.jpg" width="500">
 <img src="https://github.com/jessiemasonx/images/blob/master/IMG_9900.jpg" width="500">
 <img src="https://github.com/jessiemasonx/images/blob/master/IMG_9901.jpg" width="500">
