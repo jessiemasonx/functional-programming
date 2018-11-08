@@ -66,6 +66,7 @@ __Over the last years the difference between the percentage of men and women who
 <summary>Dutch translation of the hypothesis</summary>
 <br>
 Het verschil in het percentage mannen en vrouwen die romantische verhalen schrijven in Nederland is in de laatste jaren meer geworden omdat mannen minder romans schrijven dan ze eerst deden.
+<details>
 
 The reason I thought this was the case was because I thought men have become less romantic over the past years.
 
@@ -172,7 +173,7 @@ There are a couple of things that I wanted to do but wasn't able to.
 One of these things was getting my results to look like this (with the gender):
 ```json
 {
-	"author"": "Moyes, Jojo",
+	"author": "Moyes, Jojo",
 	"title": "Portret van een vrouw / Jojo Moyes",
 	"publicationYear": 2015,
 	"language": "dut",
@@ -191,7 +192,7 @@ I would also like to improve my D3 skills a little more than I already have, jus
 ## Credits and help
 
 ### The people that helped me the most
-<img src="https://github.com/jessiemasonx/images/blob/master/linda.png"></img>  | ![Chelsea Doeleman](https://avatars0.githubusercontent.com/u/14131081?v=3&s=460) | ![Maikel van Veen](https://avatars1.githubusercontent.com/u/22084444?v=3&s=460) | ![Wouter Lem](https://avatars2.githubusercontent.com/u/12242967?v=3&s=460) | ![Dennis Weegereef](https://avatars0.githubusercontent.com/u/12711649?v=3&s=460)
+<img src="https://github.com/jessiemasonx/images/blob/master/linda.png" width="40"> | <img src="https://github.com/jessiemasonx/images/blob/master/chelsea.png" width="40">| <img src="https://github.com/jessiemasonx/images/blob/master/maikel.png" width="40">| <img src="https://github.com/jessiemasonx/images/blob/master/chelsea.png" width="40">|<img src="https://github.com/jessiemasonx/images/blob/master/dennis.png" width="40">
 ---|---|---|---|---
 [Linda de Haan](https://github.com/LindadeHaan) | [Chelsea Doeleman](https://github.com/GiuliaM) | [Maikel van Veen](https://github.com/Maikxx) | [Wouter Lem](https://github.com/Mimaaa) | [Dennis Weegereef](https://github.com/pierman1)
 
