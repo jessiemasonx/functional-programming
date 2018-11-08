@@ -3,8 +3,8 @@
 - [Research](#research)
 - [Visualisation](#visualisation)
 - [Experience and opinion](#experience)
-- [What's next](#whatsnext)
-- [Credits and help](#credits)
+- [What's next](#whats-next)
+- [Credits and help](#credits-and-help)
 
 ## Research
 
