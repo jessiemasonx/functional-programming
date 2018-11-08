@@ -1,10 +1,14 @@
 # Functional Programming
 
+https://jessiemasonx.github.io/functional-programming/index.html
+
 - [Research](#research)
 - [Visualisation](#visualisation)
 - [Experience and opinion](#experience)
-- [What's next](#whats-next)
-- [Credits and help](#credits-and-help)
+- [What's next](https://github.com/jessiemasonx/functional-programming#whats-next)
+- [Credits and help](https://github.com/jessiemasonx/functional-programming#credits-and-help)
+
+__To see what i've been doing every day of this project, you can check out my [journal](https://github.com/jessiemasonx/functional-programming/blob/master/journal.md)!__
 
 ## Research
 
@@ -77,7 +81,7 @@ I wasn't sure how many years I was going to look at. I didn't want to just look 
 
 I eventually decided to look at every 5 years, starting from 1995, because that was the first year rounded of by 5 that had the results.
 
-`I also wrote down per year how many results I found. If you want to see that, click` [here](#here).
+`I also wrote down per year how many results I found. If you want to see that, click` [here](https://github.com/jessiemasonx/functional-programming/blob/master/journal.md#table).
 
 The reason I looked at every 5 years is because I thought it was going to take me too long to find results for 20 years. This is because my search was very specific, and I had to send loads of requests to get any results back. However I am hoping later when I have time, to add more years into my research. But for now I focused on these: 1995, 2000, 2005, 2010, 2015 and 2018. I know it looks a little strange that 2018 is in there,  but I wanted to compare all these years to __now__.
 
