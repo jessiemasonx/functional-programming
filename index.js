@@ -1,22 +1,26 @@
 require('dotenv').config()
 
-// const api = require('./oba-api.js')
+// packages
+
+// extra
 const chalk = require('chalk');
-const express = require('express')
-const app = express()
-const port = 3000
-// Chelsea & Maikel
-const helpers = require("./helpers.js")
-const obawrapper = require("node-oba-api-wrapper")
-// d3
 const d3 = require("d3");
 
+// server and api
+const express = require('express')
+const obawrapper = require("node-oba-api-wrapper")
+const app = express()
+const port = 3000
+
+// functions
+const helpers = require("./helpers.js")
 
 const obaApi = new obawrapper({
     public: process.env.PUBLIC,
     secret: process.env.SECRET
 })
 
+// Credits to Wouter
 const search = async (q, facet, page, count) => {
     return await obaApi.get("search", {
         q,
@@ -24,50 +28,45 @@ const search = async (q, facet, page, count) => {
         refine: true,
         facet,
         page,
-        count: 100,
+        count: 20,
         filter: (result) => {
+			// Credits to Maikel and Chelsea
             const publicationYear = helpers.getPublicationYearFromResult(result)
-            const currentYear = new Date().getFullYear()
-            return publicationYear === currentYear // 2018
-			// return where is has a genre
-				&& helpers.getGenreFromResult(result)
-            	// || publicationYear === currentYear - 3 // 2015
-             // || publicationYear === currentYear - 8 // 2010
-            // || publicationYear === currentYear - 13
-            // || publicationYear === currentYear - 18
-            // || publicationYear === currentYear - 23
-            // || publicationYear === currentYear - 28
+			const currentYear = new Date().getFullYear()
+            // return publicationYear === 2018
+			return publicationYear === currentYear -3
+
+			|| publicationYear === 2017
+			|| publicationYear === 2016
+			|| publicationYear === 2015
+			// return where is has a genre that is romantisch verhaal
+			&& helpers.getGenreFromResult(result)
+
         }
     })
 }
 
-
 (async () => {
     try {
-        // Chelsea & Maikel
+		// q, facet, page
         const results = await search("language:dut", ["type(book)", "genre(romantisch-verhaal)"], 1)
-
-        if (results) {
-            // const results = helpers.getResultsFromSearchData(searchData)
+		// Credits to Chelsea & Maikel
+		// if you have results
+		if (results) {
+			// get the results from helpers.js
             const transformedResults = helpers.getTransformedResultFromResults(results)
+			// get the authors from the results
 			const authors = transformedResults.map(result => result.author)
-			const transformedAuthors = authors.map(author => {
-				const authorFirstNameLastName = author.split(', ')
-				let firstName = authorFirstNameLastName[1]
-				const firstDot = firstName && firstName.indexOf(".")
-				const hasDots = firstDot !== -1
-				const removeStartIndex = hasDots ? firstDot - 1 : undefined
-				const endIndex = firstName && firstName.length
-				// Annie
-				const tokensToRemove = firstName && removeStartIndex !== undefined && firstName.slice(removeStartIndex, endIndex)
-				const transformedFirstName = tokensToRemove && firstName.replace(tokensToRemove, '').trim()
-				const nameToUse = hasDots ? transformedFirstName : firstName
-				return {
-					name: nameToUse,
-					gender: helpers.getGenderFromName(nameToUse),
-				}
+			// get the first names without the dots from helpers.js
+			const transformedAuthors = authors.map(helpers.getFirstNameAndGender)
+			// get every first name and gender
+			const filterTransformedAuthors = transformedAuthors.filter(transformedAuthor => {
+				return transformedAuthor.name && transformedAuthor.gender
 			})
-			console.log(transformedAuthors)
+
+			// show the author name and gender in the console
+			console.log(filterTransformedAuthors)
+			// the results in console
             console.log(transformedResults)
             const dataWrapper = {
                 "results": transformedResults

@@ -1,13 +1,10 @@
-// Shout out naar Maikel en Chelsea voor het helpen
-// const getResultsFromSearchData = (searchData) => {
-//     return searchData.aquabrowser
-//         && searchData.aquabrowser.results
-//         && searchData.aquabrowser.results[0]
-//         && searchData.aquabrowser.results[0].result
-//         || []
-// }
-
+// most of this file is with help from Maikel and Chelsea
 const fs = require('fs')
+
+
+// it goes 1 element deeper everytime but first checks if it's there
+// if not, it returns undefined
+
 
 const getAuthorFromResult = (result) => {
     return result.authors
@@ -46,8 +43,6 @@ const getGenreFromResult = (result) => {
         || undefined
 }
 
-// als getGenreFromResult undefined is, moet hij er uit
-
 const getLanguageFromResult = (result) => {
     return result.languages
         && result.languages.language
@@ -55,8 +50,41 @@ const getLanguageFromResult = (result) => {
         || undefined
 }
 
+const getFirstNameAndGender = (author) => {
+	// split the name at the comma so first and last name are seperate
+	const authorFirstNameLastName = author.split(', ')
+	// first name is second part and last name is the first part
+	// so to get the first name you get the second [1] part
+	let firstName = authorFirstNameLastName[1]
+	// first dot that you find in the name
+	const firstDot = firstName && firstName.indexOf(".")
+	// if no dot then -1
+	// put the name without dots on falsy so dont use it
+	const hasDots = firstDot !== -1
+	const transformedFirstName = removeDots(hasDots, firstName, firstDot)
+	// set the transformed name as the first name
+	const nameToUse = hasDots ? transformedFirstName : firstName
+	return {
+		name: nameToUse,
+		gender: getGenderFromName(nameToUse)
+	}
+}
 
-// help to Maikel and Chelsea
+// credits to Maikel and Chelsea
+const removeDots = (hasDots, firstName, firstDot) => {
+	// letter before the dot
+	const removeStartIndex = hasDots ? firstDot - 1 : undefined
+	// last letter
+	const endIndex = firstName && firstName.length
+	// remove from letter before dot until last letter so only first name is left
+	const tokensToRemove = firstName && removeStartIndex !== undefined && firstName.slice(removeStartIndex, endIndex)
+	// remove the space
+	const transformedFirstName = tokensToRemove && firstName.replace(tokensToRemove, '').trim()
+}
+
+// credits to Maikel and Chelsea
+// the structure that how you return the data
+// mapping over the results
 const getTransformedResultFromResults = (results) => {
     return results
         ? results.map(result => ({
@@ -66,6 +94,7 @@ const getTransformedResultFromResults = (results) => {
             language: getLanguageFromResult(result),
 			genre: getGenreFromResult(result)
         }))
+		// otherwise an empty array
         : []
 }
 
@@ -86,5 +115,6 @@ module.exports = {
     getPublicationYearFromResult,
     getAuthorFromResult,
 	getGenreFromResult,
-	getGenderFromName
+	getGenderFromName,
+	getFirstNameAndGender
 }
