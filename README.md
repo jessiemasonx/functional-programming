@@ -62,12 +62,12 @@ After I made that decision, I thought of what I expected and came up with my __h
 
 __Over the last years the difference between the percentage of men and women who write novels in the Netherlands has become bigger because men write less novels than they used to.__
 
-<details open>
-<summary>Dutch translation of the hypothesis</summary>
-<br>
-Het verschil in het percentage mannen en vrouwen die romantische verhalen schrijven in Nederland is in de laatste jaren meer geworden omdat mannen minder romans schrijven dan ze eerst deden.
 <details>
+ <summary>Dutch translation of the hypothesis</summary>
+ Het verschil in het percentage mannen en vrouwen die romantische verhalen schrijven in Nederland is in de laatste jaren meer geworden omdat mannen minder romans schrijven dan ze eerst deden.
+</details>
 
+<br>
 The reason I thought this was the case was because I thought men have become less romantic over the past years.
 
 What I did next was try to get the data I needed.  
@@ -84,7 +84,7 @@ The reason I looked at every 5 years is because I thought it was going to take m
 The results in my terminal looked something like this:
 ```json
 {
-	"author"": "Moyes, Jojo",
+	"author": "Moyes, Jojo",
    "title": "Portret van een vrouw / Jojo Moyes",
    "publicationYear": 2015,
    "language": "dut",
@@ -192,8 +192,11 @@ I would also like to improve my D3 skills a little more than I already have, jus
 ## Credits and help
 
 ### The people that helped me the most
-<img src="https://github.com/jessiemasonx/images/blob/master/linda.png" width="40"> | <img src="https://github.com/jessiemasonx/images/blob/master/chelsea.png" width="40">| <img src="https://github.com/jessiemasonx/images/blob/master/maikel.png" width="40">| <img src="https://github.com/jessiemasonx/images/blob/master/chelsea.png" width="40">|<img src="https://github.com/jessiemasonx/images/blob/master/dennis.png" width="40">
+<img src="https://github.com/jessiemasonx/images/blob/master/linda.png" width="100"> | <img src="https://github.com/jessiemasonx/images/blob/master/chelsea.png" width="100">| <img src="https://github.com/jessiemasonx/images/blob/master/maikel.png" width="100">| <img src="https://github.com/jessiemasonx/images/blob/master/chelsea.png" width="100">|<img src="https://github.com/jessiemasonx/images/blob/master/dennis.png" width="100">
 ---|---|---|---|---
 [Linda de Haan](https://github.com/LindadeHaan) | [Chelsea Doeleman](https://github.com/GiuliaM) | [Maikel van Veen](https://github.com/Maikxx) | [Wouter Lem](https://github.com/Mimaaa) | [Dennis Weegereef](https://github.com/pierman1)
 
-https://github.com/DanielvandeVelde
+Other helpful resources
+- [Daniels Documentation](https://github.com/DanielvandeVelde/functional-programming/blob/master/README.md)
+- https://bl.ocks.org/mbostock
+- https://beta.observablehq.com/
