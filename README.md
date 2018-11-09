@@ -10,7 +10,7 @@ https://jessiemasonx.github.io/functional-programming/index.html
 
 __To see what i've been doing every day of this project, you can check out my [journal](https://github.com/jessiemasonx/functional-programming/blob/master/journal.md)!__
 
-## Research
+## Research :mag_right:
 
 There were so many things I could look into in the OBA API, that it was very hard for me to decide what to go with.
 
@@ -167,19 +167,19 @@ Laurens helped me with the decision, and I eventually decided to go with a **lin
 
 I used this pretty [Line Graph](https://bl.ocks.org/alandunning/cfb7dcd7951826b9eacd54f0647f48d3) on [bl.ocks.org](https://bl.ocks.org), that was perfect.
 
-## Visualisation
+## Visualisation :chart_with_upwards_trend:
 
 This is the result. As you can see, based on the data I found, the percentage of men has actually increased and not decreased (except for in 2015). This is not what I expected.
 
 <img src="https://github.com/jessiemasonx/images/blob/master/Schermafbeelding%202018-11-08%20om%2022.41.14.png">
 
-## Experience and opinion
+## Experience and opinion 🤔
 
 Overall, I thought this project up until now was very informative. There are so many things that i've done that I had never done before. I had never worked with an API and getting my data like this. Focussing on the functional programming was also challenging for me because I know my Javascript skills aren't as high as others'. I did need a lot help with my code because of that.
 
 The thing I was most excited about this project was D3. When Titus gave us a bootcamp I found it extremely interesting and wanted to start right away. Unfortunately, I haven't worked as much on D3 as I wanted to. This is because I spent so much time on trying to get my data. I really wanted to make an amazing visualisation and wanted the perfect data for that. It was only later when I realised it was taking too much time, and I really needed to start working on D3.
 
-## What's next
+## What's next :arrow_right:
 
 There are a couple of things that I wanted to do but wasn't able to.
 
@@ -202,7 +202,7 @@ Furthermore, I want to load my data dynamically. And use that data to calculate 
 I would also like to improve my D3 skills a little more than I already have, just because right now I don't feel like I've had enough time to do so.
 
 
-## Credits and help
+## Credits and help :heartpulse::heartpulse:
 
 ### The people that helped me the most
 <img src="https://github.com/jessiemasonx/images/blob/master/linda.png" width="150"> | <img src="https://github.com/jessiemasonx/images/blob/master/chelsea.png" width="150">| <img src="https://github.com/jessiemasonx/images/blob/master/maikel.png" width="150">| <img src="https://github.com/jessiemasonx/images/blob/master/wouter.png" width="150">|<img src="https://github.com/jessiemasonx/images/blob/master/dennis.png" width="150">
