@@ -21,6 +21,7 @@ const obaApi = new obawrapper({
 })
 
 // Credits to Wouter
+// used his api wrapper to get more then 20 results
 const search = async (q, facet, page, count) => {
     return await obaApi.get("search", {
         q,

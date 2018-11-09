@@ -211,5 +211,8 @@ I would also like to improve my D3 skills a little more than I already have, jus
 
 Other helpful resources
 - [Daniels Documentation](https://github.com/DanielvandeVelde/functional-programming/blob/master/README.md)
+- [Folkert-Jan](https://github.com/FJvdPol)
+- [Wouters API wrapper](https://github.com/maanlamp/node-oba-api-wrapper)
 - https://bl.ocks.org/mbostock
 - https://beta.observablehq.com/
+- [Documentation from Mark](https://files.slack.com/files-pri/T6TRFK8KA-FDTEP6L82/download/api_-_documentatie_collectie.xlsx)
