@@ -169,7 +169,7 @@ I used this pretty [Line Graph](https://bl.ocks.org/alandunning/cfb7dcd7951826b9
 
 ## Visualisation
 
-This is the result. As you can see, based on the data I found, the percentage of men has actually increased and not decreased (except for in 2018). This is not what I expected.
+This is the result. As you can see, based on the data I found, the percentage of men has actually increased and not decreased (except for in 2015). This is not what I expected.
 
 <img src="https://github.com/jessiemasonx/images/blob/master/Schermafbeelding%202018-11-08%20om%2022.41.14.png">
 
