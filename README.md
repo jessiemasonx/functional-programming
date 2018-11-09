@@ -2,7 +2,7 @@
 
 https://jessiemasonx.github.io/functional-programming/index.html
 
-- [Research](#research)
+- [Research](#research-mag_right)
 - [Visualisation](#visualisation)
 - [Experience and opinion](https://github.com/jessiemasonx/functional-programming#experience-and-opinion)
 - [What's next](https://github.com/jessiemasonx/functional-programming#whats-next)
