@@ -3,10 +3,10 @@
 https://jessiemasonx.github.io/functional-programming/index.html
 
 - [Research](#research-mag_right)
-- [Visualisation](#visualisation)
+- [Visualisation](#visualisation-chart_with_upwards_trend)
 - [Experience and opinion](https://github.com/jessiemasonx/functional-programming#experience-and-opinion)
-- [What's next](https://github.com/jessiemasonx/functional-programming#whats-next)
-- [Credits and help](https://github.com/jessiemasonx/functional-programming#credits-and-help)
+- [What's next](#whats-next-arrow_right)
+- [Credits and help](#credits-and-help-heartpulseheartpulse)
 
 __To see what i've been doing every day of this project, you can check out my [journal](https://github.com/jessiemasonx/functional-programming/blob/master/journal.md)!__
 
